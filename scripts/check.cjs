@@ -18,6 +18,19 @@ for (const lang of locales) {
     path.join(root, "dist", "index." + lang + ".html"),
     "utf8",
   );
+  for (const [key, value] of Object.entries(dictionary)) {
+    if (typeof value !== "string" || !value.trim())
+      throw Error("Empty translation " + lang + "/" + key);
+    if (key.startsWith("application")) {
+      const escaped = value
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;");
+      if (!html.includes(escaped))
+        throw Error("Missing application text " + lang + "/" + key);
+    }
+  }
   const ids = new Set([...html.matchAll(/\bid="([^"]+)"/g)].map((m) => m[1]));
   if (
     !html.includes('<html lang="' + (lang === "pt-br" ? "pt-BR" : lang) + '">')

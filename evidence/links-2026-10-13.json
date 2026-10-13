@@ -127,6 +127,12 @@
       "finalUrl": "https://soubeatrizkaroline.vercel.app/#projetos"
     },
     {
+      "url": "https://t.me/aspiraqualquer",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://t.me/aspiraqualquer"
+    },
+    {
       "url": "https://www.linkedin.com/in/beatrizkcs/",
       "status": "profile-access-restricted"
     },
@@ -137,6 +143,12 @@
     {
       "url": "https://www.linkedin.com/in/oliviaboretti/",
       "status": "profile-access-restricted"
+    },
+    {
+      "url": "https://x.com/1aspiraqualquer",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://x.com/1aspiraqualquer"
     },
     {
       "url": "https://youtu.be/DJOf1fwRpk0",

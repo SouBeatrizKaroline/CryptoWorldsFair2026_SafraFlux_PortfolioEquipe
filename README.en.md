@@ -9,7 +9,7 @@ Portfolio of the SheBuilds team and SafraFlux, fully available in Brazilian Port
 | Path | Description |
 | --- | --- |
 | src/index.template.pt-br.html | Shared page template. |
-| src/locales/*.json | 263 texts per language; identical keys and order. |
+| src/locales/*.json | 302 texts per language; identical keys and order. |
 | src/style.css, src/app.js | Shared styles and interactions. |
 | scripts/ | Generation and validation without external dependencies. |
 | dist/ | Generated static site, ready to publish. |
@@ -45,3 +45,7 @@ Monograms represent the creators without invented photos. Logos are shared; the 
 - [Beatriz](https://soubeatrizkaroline.vercel.app/)
 - [Sonia](https://jhay.goskip.app/)
 - [Olivia](https://sites.google.com/view/oliviaboretti/olivia-boretti)
+
+## Submission supplement
+
+Includes Beatriz’s education and work experience, development starting on September 23, 2026, team commitment and remote collaboration, the BRL 900/month and BRL 1,500 onboarding hypothesis, alternatives for comparison, planned discovery, judging access and a downloadable logo. Sources are the team’s answers provided on October 13, 2026; plans and reported facts remain identified as such. Equity percentages and the external participant’s identity were not published.
