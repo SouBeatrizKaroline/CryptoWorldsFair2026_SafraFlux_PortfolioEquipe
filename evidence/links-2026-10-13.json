@@ -1,0 +1,154 @@
+{
+  "checkedOn": "2026-10-13",
+  "scope": "Distinct external links in rendered pages and READMEs. New language URLs require deployment. Private repository and LinkedIn access classified separately.",
+  "results": [
+    {
+      "url": "https://colosseum.com/arena/projects/shebuilds",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://colosseum.com/arena/projects/shebuilds"
+    },
+    {
+      "url": "https://fonts.googleapis.com",
+      "status": "resource-preconnect-origin"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    },
+    {
+      "url": "https://fonts.gstatic.com",
+      "status": "resource-preconnect-origin"
+    },
+    {
+      "url": "https://github.com/Jhaysavi",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://github.com/Jhaysavi"
+    },
+    {
+      "url": "https://github.com/SouBeatrizKaroline",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://github.com/SouBeatrizKaroline"
+    },
+    {
+      "url": "https://github.com/SouBeatrizKaroline/CryptoWorldsFair2026_SafraFlux",
+      "status": "private-repository-access"
+    },
+    {
+      "url": "https://github.com/SouBeatrizKaroline/CryptoWorldsFair2026_SafraFlux/pull/31",
+      "status": "private-repository-access"
+    },
+    {
+      "url": "https://github.com/SouBeatrizKaroline/CryptoWorldsFair2026_SafraFlux_Solami",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://github.com/SouBeatrizKaroline/CryptoWorldsFair2026_SafraFlux_Solami"
+    },
+    {
+      "url": "https://github.com/oliviaboretti",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://github.com/oliviaboretti"
+    },
+    {
+      "url": "https://jhay.goskip.app/",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://jhay.goskip.app/"
+    },
+    {
+      "url": "https://safraflux.soubeatrizkaroline.workers.dev/",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://safraflux.soubeatrizkaroline.workers.dev/"
+    },
+    {
+      "url": "https://safraflux.soubeatrizkaroline.workers.dev/demo.html?lang=en",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://safraflux.soubeatrizkaroline.workers.dev/demo.html?lang=en"
+    },
+    {
+      "url": "https://safraflux.soubeatrizkaroline.workers.dev/demo.html?lang=es",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://safraflux.soubeatrizkaroline.workers.dev/demo.html?lang=es"
+    },
+    {
+      "url": "https://safraflux.soubeatrizkaroline.workers.dev/demo.html?lang=pt",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://safraflux.soubeatrizkaroline.workers.dev/demo.html?lang=pt"
+    },
+    {
+      "url": "https://safraflux.soubeatrizkaroline.workers.dev/media.en.html",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://safraflux.soubeatrizkaroline.workers.dev/media.en.html"
+    },
+    {
+      "url": "https://safraflux.soubeatrizkaroline.workers.dev/media.es.html",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://safraflux.soubeatrizkaroline.workers.dev/media.es.html"
+    },
+    {
+      "url": "https://safraflux.soubeatrizkaroline.workers.dev/media.pt.html",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://safraflux.soubeatrizkaroline.workers.dev/media.pt.html"
+    },
+    {
+      "url": "https://shebuilds-safraflux.vercel.app/",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://shebuilds-safraflux.vercel.app/"
+    },
+    {
+      "url": "https://sites.google.com/view/oliviaboretti/olivia-boretti",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://sites.google.com/view/oliviaboretti/olivia-boretti"
+    },
+    {
+      "url": "https://soubeatrizkaroline.vercel.app/",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://soubeatrizkaroline.vercel.app/"
+    },
+    {
+      "url": "https://soubeatrizkaroline.vercel.app/#projetos",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://soubeatrizkaroline.vercel.app/#projetos"
+    },
+    {
+      "url": "https://www.linkedin.com/in/beatrizkcs/",
+      "status": "profile-access-restricted"
+    },
+    {
+      "url": "https://www.linkedin.com/in/jhaysavi/",
+      "status": "profile-access-restricted"
+    },
+    {
+      "url": "https://www.linkedin.com/in/oliviaboretti/",
+      "status": "profile-access-restricted"
+    },
+    {
+      "url": "https://youtu.be/DJOf1fwRpk0",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=DJOf1fwRpk0&feature=youtu.be"
+    },
+    {
+      "url": "https://youtu.be/ZwqSqs5blPg",
+      "status": "available",
+      "http": 200,
+      "finalUrl": "https://www.youtube.com/watch?v=ZwqSqs5blPg&feature=youtu.be"
+    }
+  ]
+}
