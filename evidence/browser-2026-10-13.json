@@ -1,0 +1,89 @@
+{
+  "checkedOn": "2026-10-13",
+  "checks": [
+    {
+      "lang": "pt-br",
+      "width": 320,
+      "overflow": false,
+      "imagesLoaded": true,
+      "menuAndFilters": true
+    },
+    {
+      "lang": "pt-br",
+      "width": 390,
+      "overflow": false,
+      "imagesLoaded": true,
+      "menuAndFilters": true
+    },
+    {
+      "lang": "pt-br",
+      "width": 768,
+      "overflow": false,
+      "imagesLoaded": true,
+      "menuAndFilters": true
+    },
+    {
+      "lang": "pt-br",
+      "width": 1440,
+      "overflow": false,
+      "imagesLoaded": true,
+      "menuAndFilters": true
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "overflow": false,
+      "imagesLoaded": true,
+      "menuAndFilters": true
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "overflow": false,
+      "imagesLoaded": true,
+      "menuAndFilters": true
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "overflow": false,
+      "imagesLoaded": true,
+      "menuAndFilters": true
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "overflow": false,
+      "imagesLoaded": true,
+      "menuAndFilters": true
+    },
+    {
+      "lang": "es",
+      "width": 320,
+      "overflow": false,
+      "imagesLoaded": true,
+      "menuAndFilters": true
+    },
+    {
+      "lang": "es",
+      "width": 390,
+      "overflow": false,
+      "imagesLoaded": true,
+      "menuAndFilters": true
+    },
+    {
+      "lang": "es",
+      "width": 768,
+      "overflow": false,
+      "imagesLoaded": true,
+      "menuAndFilters": true
+    },
+    {
+      "lang": "es",
+      "width": 1440,
+      "overflow": false,
+      "imagesLoaded": true,
+      "menuAndFilters": true
+    }
+  ]
+}
