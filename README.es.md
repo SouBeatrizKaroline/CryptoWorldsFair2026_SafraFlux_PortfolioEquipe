@@ -9,7 +9,7 @@ Portafolio del equipo SheBuilds y SafraFlux, disponible íntegramente en portugu
 | Ruta | Descripción |
 | --- | --- |
 | src/index.template.pt-br.html | Plantilla de página compartida. |
-| src/locales/*.json | 263 textos por idioma; mismas claves y orden. |
+| src/locales/*.json | 302 textos por idioma; mismas claves y orden. |
 | src/style.css, src/app.js | Estilos e interacciones compartidos. |
 | scripts/ | Generación y validación sin dependencias externas. |
 | dist/ | Sitio estático generado, listo para publicar. |
@@ -45,3 +45,7 @@ Los monogramas representan a las creadoras sin fotos inventadas. Los logos son c
 - [Beatriz](https://soubeatrizkaroline.vercel.app/)
 - [Sonia](https://jhay.goskip.app/)
 - [Olivia](https://sites.google.com/view/oliviaboretti/olivia-boretti)
+
+## Complemento de la inscripción
+
+Incluye formación y experiencia profesional de Beatriz, inicio del desarrollo el 23/09/2026, dedicación y colaboración remota del equipo, hipótesis de BRL 900/mes y BRL 1.500 de implementación, alternativas para comparación, descubrimiento previsto, acceso para evaluación y logo descargable. Las fuentes son las respuestas proporcionadas por el equipo el 13/10/2026; planes y relatos siguen identificados como tales. No se publicaron porcentajes de participación ni la identidad del participante externo.

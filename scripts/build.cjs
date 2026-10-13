@@ -133,7 +133,10 @@ for (let l = 0; l < languages.length; l++) {
         .join("");
     })
     .join("");
-  if (index !== Object.keys(dictionary).length)
+  if (
+    index !==
+    Object.keys(dictionary).filter((key) => /^t\d{3}$/.test(key)).length
+  )
     throw Error("Unmatched locale keys " + lang + ": " + index);
   for (const [original, variants] of Object.entries(attributes))
     html = html.replaceAll(
@@ -225,6 +228,82 @@ for (let l = 0; l < languages.length; l++) {
   html = html.replace(
     '<section class="roadmap',
     block + '<section class="roadmap',
+  );
+  const text = (i) =>
+    escape(dictionary["application" + String(i).padStart(2, "0")]);
+  const businessCards = [4, 7, 10, 13]
+    .map(
+      (i) =>
+        '<article><p class="eyebrow">' +
+        text(i) +
+        "</p><h3>" +
+        text(i + 1) +
+        "</h3><p>" +
+        text(i + 2) +
+        "</p></article>",
+    )
+    .join("");
+  const business =
+    '<section class="application-business section" id="negocio"><div class="section-heading"><div><p class="eyebrow">' +
+    text(0) +
+    "</p><h2>" +
+    text(1) +
+    '<br><span class="serif">' +
+    text(2) +
+    "</span></h2></div><p>" +
+    text(3) +
+    '</p></div><div class="application-grid">' +
+    businessCards +
+    "</div></section>";
+  html = html.replace(
+    '<section class="projects',
+    business + '<section class="projects',
+  );
+  const backgroundCards = [20, 22, 24, 26]
+    .map(
+      (i) =>
+        "<article><h3>" + text(i) + "</h3><p>" + text(i + 1) + "</p></article>",
+    )
+    .join("");
+  const background =
+    '<section class="application-background section" id="trajetoria"><div class="section-heading"><div><p class="eyebrow">' +
+    text(16) +
+    "</p><h2>" +
+    text(17) +
+    '<br><span class="serif">' +
+    text(18) +
+    "</span></h2></div><p>" +
+    text(19) +
+    '</p></div><div class="application-grid">' +
+    backgroundCards +
+    "</div></section>";
+  const access =
+    '<section class="application-access section" id="avaliacao"><p class="eyebrow">' +
+    text(28) +
+    '</p><div class="architecture-note"><div><h3>' +
+    text(29) +
+    "</h3><p>" +
+    text(30) +
+    "</p></div><div><h3>" +
+    text(35) +
+    "</h3><p>" +
+    text(31) +
+    '</p></div></div><div class="actions"><a class="button" href="assets/logo-horizontal.png" download="safraflux-logo.png">' +
+    text(34) +
+    '</a><a class="text-link" href="https://x.com/1aspiraqualquer" target="_blank" rel="noopener noreferrer">' +
+    text(32) +
+    '</a><a class="text-link" href="https://t.me/aspiraqualquer" target="_blank" rel="noopener noreferrer">' +
+    text(33) +
+    "</a></div><h3>" +
+    text(36) +
+    '</h3><p class="caption">' +
+    text(37) +
+    '</p><p class="source-note">' +
+    text(38) +
+    "</p></section>";
+  html = html.replace(
+    '<section class="links',
+    background + access + '<section class="links',
   );
   fs.writeFileSync(path.join(root, "dist", "index." + lang + ".html"), html);
   if (lang === "pt-br")

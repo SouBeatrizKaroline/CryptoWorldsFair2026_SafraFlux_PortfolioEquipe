@@ -9,7 +9,7 @@ Portfólio da equipe SheBuilds e do SafraFlux, disponível integralmente em port
 | Caminho | Descrição |
 | --- | --- |
 | src/index.template.pt-br.html | Página-base compartilhada. |
-| src/locales/*.json | 263 textos por idioma; mesmas chaves e mesma ordem. |
+| src/locales/*.json | 302 textos por idioma; mesmas chaves e mesma ordem. |
 | src/style.css, src/app.js | Estilos e interações compartilhados. |
 | scripts/ | Geração e validação sem dependências externas. |
 | dist/ | Site estático gerado, pronto para publicar. |
@@ -45,3 +45,7 @@ Os monogramas representam as criadoras sem fotos inventadas. Logos são comparti
 - [Beatriz](https://soubeatrizkaroline.vercel.app/)
 - [Sonia](https://jhay.goskip.app/)
 - [Olivia](https://sites.google.com/view/oliviaboretti/olivia-boretti)
+
+## Complemento da inscrição
+
+Inclui formação e experiência profissional de Beatriz, início do desenvolvimento em 23/09/2026, dedicação e colaboração remota da equipe, hipótese de R$ 900/mês e R$ 1.500 de implantação, alternativas para comparação, descoberta planejada, acesso para avaliação e logo para download. As fontes são as respostas fornecidas pela equipe em 13/10/2026; planos e relatos permanecem identificados como tais. Não foram publicados percentuais societários ou a identidade do participante externo.
